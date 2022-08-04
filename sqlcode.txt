@@ -1,0 +1,32 @@
+luxury | CREATE TABLE `luxury` (
+  `name` varchar(50) DEFAULT NULL,
+  `phonenumber` int DEFAULT NULL,
+  `address` varchar(40) DEFAULT NULL,
+  `bookingdate` date DEFAULT NULL,
+  `gender` varchar(40) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci |
+
+
++-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Table | Create Table                                                                                                                                                                                                                                                                |
++-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| basic | CREATE TABLE `basic` (
+  `name` varchar(50) DEFAULT NULL,
+  `phonenumber` int DEFAULT NULL,
+  `address` varchar(40) DEFAULT NULL,
+  `bookingdate` date DEFAULT NULL,
+  `gender` varchar(40) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci 
+
+
++---------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Table   | Create Table                                                                                                                                               
+| premium | CREATE TABLE `premium` (
+  `name` varchar(50) DEFAULT NULL,
+  `phonenumber` int DEFAULT NULL,
+  `address` varchar(40) DEFAULT NULL,
+  `bookingdate` date DEFAULT NULL,
+  `gender` varchar(40) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci |
+
+
